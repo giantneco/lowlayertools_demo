@@ -1,2 +1,3 @@
 *.o
-gdb/main
+*/main
+gmon.out

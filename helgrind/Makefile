@@ -3,7 +3,7 @@
 all: main
 
 main: main.c
-	gcc -o $@ -g -O0 -Wall --std=c99 $<
+	gcc -o $@ -g -Wall --std=c99 $< -lpthread
 
 clean:
 	@rm -rf *.o main
